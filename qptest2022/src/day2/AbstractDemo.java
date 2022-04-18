@@ -32,6 +32,7 @@ abstract class Dominos{
 	public abstract void delivery();
 }
 
+
 class TuljhaDomino extends Dominos{
 	@Override
 	public void delivery() {
