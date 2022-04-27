@@ -21,7 +21,7 @@ public class PaymentTest {
 
 		oneOf(testInterface).makePayment(102,1000);
 
-		will(returnValue((true)));
+		will(returnValue((false)));
 
 		}});
 		boolean result=testInterface.makePayment(102,1000);
